@@ -20,7 +20,7 @@ For Vision Tasks on both **Human Vision** :smile:  and **Machine Vision** :camer
 
 ## Citation:
 
-Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are also borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [Uniformer](https://github.com/Sense-X/UniFormer), thanks them both so much!
+Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are also borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [UniFormer](https://github.com/Sense-X/UniFormer), thanks them both so much!
 
 Citation of **Illumination Adaptive Transformer**:
 
