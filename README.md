@@ -22,7 +22,7 @@ For Vision Tasks on both **Human Vision** :smile:  and **Machine Vision** :camer
 
 Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are also borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE), thanks them so much!
 
-Citation of IAT:
+Citation of **Illumination Adaptive Transformer**:
 
 
 
