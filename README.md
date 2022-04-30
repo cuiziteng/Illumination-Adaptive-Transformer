@@ -12,3 +12,4 @@ For Vision Tasks on both **Human Vision** :smile:  and **Machine Vision** :camer
   Figure 1: IAT (illumination-adaptive-transformer) on multiply light vision challenges.
 </p>
 
+## Model Structure:
