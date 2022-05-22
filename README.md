@@ -9,7 +9,7 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
   <img src="./pics/WechatIMG416.png" height="400">
 </div>
 <p align="center">
-  Figure 1: IAT (illumination-adaptive-transformer) on multiply light vision challenges.
+  Figure 1: IAT (illumination-adaptive-transformer) for multi light conditions vision tasks.
 </p>
 
 ## Model Structure:
