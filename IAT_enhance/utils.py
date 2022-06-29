@@ -10,7 +10,7 @@ import os
 import math
 from IQA_pytorch import SSIM, MS_SSIM
 import matplotlib.pyplot as plt
-from  kornia.filters import gaussian_blur2d
+import torch.distributed as dist
 
 EPS = 1e-3
 PI = 22.0 / 7.0
@@ -185,18 +185,5 @@ class L_color(nn.Module):
 
         return k
 
-# Lightness Loss
-class L_light(nn.Module):
-
-    def __init__(self):
-        super(L_light, self).__init__()
-
-    def forward(self, low, high, mul):
-        #low = gaussian_blur2d(low, (5, 5), (3, 3))
-        high = gaussian_blur2d(high, (5, 5), (3, 3))
-        light = torch.div(high, torch.clamp(low, min=EPS))
-        k = torch.abs(mul - light)
-
-        return k
 
 
