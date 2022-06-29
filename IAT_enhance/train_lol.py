@@ -23,8 +23,8 @@ from utils import PSNR, adjust_learning_rate, validation, LossNetwork, visualiza
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=1)
-parser.add_argument('--img_path', type=str, default="/data/unagi0/cui_data/light_dataset/LOL_v2/Train/Low/")
-parser.add_argument('--img_val_path', type=str, default="/data/unagi0/cui_data/light_dataset/LOL_v2/Test/Low/")
+parser.add_argument('--img_path', type=str, default="/data/unagi0/cui_data/light_dataset/LOL/Train/Low/")
+parser.add_argument('--img_val_path', type=str, default="/data/unagi0/cui_data/light_dataset/LOL/Test/Low/")
 parser.add_argument("--normalize", action="store_false", help="Default Normalize in LOL training.")
 parser.add_argument('--model_type', type=str, default='s')
 
@@ -35,7 +35,7 @@ parser.add_argument('--pretrain_dir', type=str, default=None)
 
 parser.add_argument('--num_epochs', type=int, default=200)
 parser.add_argument('--display_iter', type=int, default=10)
-parser.add_argument('--snapshots_folder', type=str, default="workdirs/snapshots_folder_lol_v2")
+parser.add_argument('--snapshots_folder', type=str, default="workdirs/snapshots_folder_lol")
 
 config = parser.parse_args()
 
