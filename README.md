@@ -23,10 +23,27 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
   Figure 2: Model Structure.
 </p>
 
-Our IAT model consist of two individual branches, the local branch is for pixel-wise adjustment and ouputs two feature map for add and multiply. The global branch is for global-wise adjustment and outpus the color matrix and gamma value.
+Our IAT model consist of two individual branches, the local branch is for pixel-wise adjustment and ouputs two feature map for add and multiply. The global branch is for global-wise adjustment and outpus the color matrix and gamma value, global branch is inspired by [DETR](https://github.com/facebookresearch/detr), the network would updates color matrix and gamma value by a dynamic query learning way. BTW, the total model is only over **90k+** parameters and the inference speed is only **0.004s** per image on LOL dataset.
 
-## Test and Train:
+## Usage:
 
+Enviroment:
+```
+python >= 3.5.0, numpy, tqdm, 
+timm == 0.4.12, matplotlib,
+IQA_pytorch, argparse,
+pytorch == 1.7.1, torchvision == 0.8.2 (Not must)
+```
+
+For low-level vision (low-light enhancement, exposure correction):
+```
+cd IAT_enhance
+```
+
+For high-level vision (low-light detection, segmentation):
+```
+cd IAT_high
+```
 
 ## Citation:
 
