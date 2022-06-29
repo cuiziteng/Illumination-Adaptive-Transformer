@@ -20,7 +20,7 @@ python evaluation_lol.py --img_val_path Your_Path/Test/Low/
 ```
 The SSIM and PSNR value should be **0.823** and **23.499**
 
-3. Training your model on LOL dataset
+3. Training your model on LOL dataset (single GPU)
 ```
 python train_lol.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low/ 
 ```
@@ -30,7 +30,7 @@ python train_lol.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path You
 1. Download the dataset from [Training](https://ln2.sync.com/dl/141f68cf0/mrt3jtm9-ywbdrvtw-avba76t4-w6fw8fzj), [Validation](https://ln2.sync.com/dl/49a6738c0/3m3imxpe-w6eqiczn-vripaqcf-jpswtcfr), [Testing](https://ln2.sync.com/dl/098a6c5e0/cienw23w-usca2rgh-u5fxikex-q7vydzkp), then the dataset should format like:
 
 ```
-Your Path
+Your_Path
   -- train
     -- GT_IMAGES
     -- INPUT_IMAGES
@@ -47,4 +47,9 @@ Your Path
 2. Evaluation pretrain model on Exposure dataset
 ```
 python evaluation_exposure.py --gpu_id 0 --img_val_path Your_Path/test/INPUT_IMAGES/ --expert a/b/c/d/e (choose 1)
+```
+
+3. Training your model on Exposure dataset (multi-GPU)
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 python -m torch.distributed.launch --nproc_per_node=4 train_exposure.py --img_path Your_Path/train/INPUT_IMAGES --img_val_path Your_Path/validation/INPUT_IMAGES
 ```
