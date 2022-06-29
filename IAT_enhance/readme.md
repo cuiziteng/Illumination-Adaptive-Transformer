@@ -16,13 +16,13 @@ Your_Path
 
 2. Evaluation pretrain model on LOL dataset
 ```
-python evaluation_lol.py --img_val_path Your_Path/Test/Low 
+python evaluation_lol.py --img_val_path Your_Path/Test/Low/
 ```
 The SSIM and PSNR value should be **0.823** and **23.499**
 
 3. Training your model on LOL dataset
 ```
-python train_lol.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low 
+python train_lol.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low/ 
 ```
 
 ## Exposure Correction
@@ -42,4 +42,9 @@ Your Path
     -- expert_a_testing_set
     -- expert_b_testing_set
     -- ...
+```
+
+2. Evaluation pretrain model on Exposure dataset
+```
+python evaluation_exposure.py --gpu_id 0 --img_val_path Your_Path/test/INPUT_IMAGES/ --expert a/b/c/d/e (choose 1)
 ```
