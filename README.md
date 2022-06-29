@@ -20,7 +20,7 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
   <img src="./pics/WechatIMG532.png" height="300">
 </div>
 <p align="center">
-  Figure 2: Model Structure.
+  Figure 2: Model Structure of Illumination Adaptive Transformer.
 </p>
 
 Our IAT model consist of two individual branches, the local branch is for pixel-wise adjustment and ouputs two feature map for add and multiply. The global branch is for global-wise adjustment and outpus the color matrix and gamma value, global branch is inspired by [DETR](https://github.com/facebookresearch/detr), the network would updates color matrix and gamma value by a dynamic query learning way. BTW, the total model is only over **90k+** parameters and the inference speed is only **0.004s** per image on LOL dataset.
