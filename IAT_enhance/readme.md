@@ -5,7 +5,7 @@
 1. Download the dataset from [Baidu_Cloud](https://pan.baidu.com/s/1Md5r4Lup8NVQI2ixKTIlGQ)(passwd: m7f7), the dataset should format like:
 
 ```
-Your Path
+Your_Path
   -- Train
     -- Normal
     -- Low
