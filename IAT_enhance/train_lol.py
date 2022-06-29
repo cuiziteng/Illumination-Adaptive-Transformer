@@ -19,7 +19,7 @@ from data_loaders.lol import lowlight_loader
 from model.IAT_main import IAT
 
 from IQA_pytorch import SSIM
-from utils import PSNR, adjust_learning_rate, validation, LossNetwork, L_light, visualization
+from utils import PSNR, adjust_learning_rate, validation, LossNetwork, visualization
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=1)
@@ -60,7 +60,6 @@ val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=1, shuffle=Fals
 # Loss & Optimizer Setting & Metric
 vgg_model = vgg16(pretrained=True).features[:16]
 vgg_model = vgg_model.cuda()
-light_loss = L_light()
 
 for param in vgg_model.parameters():
     param.requires_grad = False
