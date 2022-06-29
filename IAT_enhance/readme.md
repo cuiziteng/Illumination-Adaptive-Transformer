@@ -49,6 +49,13 @@ Your_Path
 python evaluation_exposure.py --gpu_id 0 --img_val_path Your_Path/test/INPUT_IMAGES/ --expert a/b/c/d/e (choose 1)
 ```
 
+The results should be:
+
+| **Expert** | a | b | c | d | e |
+| -- | -- | -- | -- | -- | -- |
+| PSNR | 19.62 | 21.24 | 21.27 | 19.74 | 19.51 |
+| SSIM | 0.80 | 0.83 | 0.84 | 0.82 | 0.82 | 
+
 3. Training your model on Exposure dataset (multi-GPU)
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 python -m torch.distributed.launch --nproc_per_node=4 train_exposure.py --img_path Your_Path/train/INPUT_IMAGES --img_val_path Your_Path/validation/INPUT_IMAGES
