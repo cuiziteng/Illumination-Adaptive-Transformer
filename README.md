@@ -1,4 +1,4 @@
-# <font color=red>Illumination</font> <font color=green>Adaptive</font> <font color=blue>Transformer</font> (IAT) Unfinshed [(paper link)](https://arxiv.org/abs/2205.14871) 
+# <font color=red>Illumination</font> <font color=green>Adaptive</font> <font color=blue>Transformer</font> (IAT) [(paper link)](https://arxiv.org/abs/2205.14871) 
 
 For Vision Tasks under various lighting conditions, towards both **Human Vision** :smile:  and **Machine Vision** :camera: 
 
@@ -23,22 +23,20 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
 
 Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [UniFormer](https://github.com/Sense-X/UniFormer), thanks them both so much!
 
-Citation of **Illumination Adaptive Transformer**:
+Citation:
 
-
+‘’‘
+@misc{Illumination_Adaptive_Transformer,
+  doi = {10.48550/ARXIV.2205.14871},
+  url = {https://arxiv.org/abs/2205.14871},
+  author = {Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Illumination Adaptive Transformer},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+’‘’
 
 We also have another work about to **low-light object detection**, **ICCV 2021**: Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection [(code)](https://github.com/cuiziteng/ICCV_MAET) [(paper)](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf), please read if you interest!
-
-Citation of our **ICCV 2021** paper:
-
-```
-@InProceedings{Cui_2021_ICCV,
-    author    = {Cui, Ziteng and Qi, Guo-Jun and Gu, Lin and You, Shaodi and Zhang, Zenghui and Harada, Tatsuya},
-    title     = {Multitask AET With Orthogonal Tangent Regularity for Dark Object Detection},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {2553-2562}
-}
-```
 
