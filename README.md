@@ -32,7 +32,7 @@ Enviroment:
 python >= 3.5.0, numpy, tqdm, 
 timm == 0.4.12, matplotlib,
 IQA_pytorch, argparse,
-pytorch == 1.7.1, torchvision == 0.8.2 (Not must)
+pytorch >= 1.7.1, torchvision >= 0.8.0 (Following [pytorch](https://pytorch.org/) instruction)
 ```
 
 For low-level vision (low-light enhancement, exposure correction):
