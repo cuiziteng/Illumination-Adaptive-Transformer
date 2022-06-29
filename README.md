@@ -15,6 +15,14 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
 
 ## Model Structure:
 
+<!-- ![image](pics/WechatIMG532.png) -->
+<div align="center">
+  <img src="./pics/WechatIMG532.png" height="400">
+</div>
+<p align="center">
+  Figure 2: Model Structure.
+</p>
+
 
 ## Test and Train:
 
