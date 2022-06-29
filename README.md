@@ -23,6 +23,7 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
   Figure 2: Model Structure.
 </p>
 
+Our IAT model consist of two individual branches, the local branch is for pixel-wise adjustment and ouputs two feature map for add and multiply. The global branch is for global-wise adjustment and outpus the color matrix and gamma value.
 
 ## Test and Train:
 
