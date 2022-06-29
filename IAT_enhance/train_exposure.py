@@ -16,7 +16,7 @@ from data_loaders.exposure import exposure_loader
 from model.IAT_main import IAT
 
 from IQA_pytorch import SSIM
-from utils import PSNR, validation, LossNetwork, L_light, visualization, get_dist_info
+from utils import PSNR, validation, LossNetwork, visualization, get_dist_info
 
 
 print(torch.cuda.device_count())
@@ -74,7 +74,6 @@ val_loader = DataLoader(val_dataset, batch_size=1, shuffle=False, num_workers=8,
 # Loss & Optimizer Setting & Metric
 vgg_model = vgg16(pretrained=True).features[:16]
 vgg_model = vgg_model.cuda()
-light_loss = L_light()
 
 for param in vgg_model.parameters():
     param.requires_grad = False
