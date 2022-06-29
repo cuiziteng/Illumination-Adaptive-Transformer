@@ -29,9 +29,9 @@ Our IAT model consist of two individual branches, the local branch is for pixel-
 
 Enviroment:
 ```
-python >= 3.5.0, numpy, tqdm, 
+python >= 3.5.0, numpy,  
 timm == 0.4.12, matplotlib,
-IQA_pytorch, argparse,
+IQA_pytorch, tqdm,
 pytorch >= 1.7.1, torchvision >= 0.8.0 (Following pytorch(https://pytorch.org/) instruction)
 ```
 
