@@ -17,7 +17,7 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
 
 <!-- ![image](pics/WechatIMG532.png) -->
 <div align="center">
-  <img src="./pics/WechatIMG532.png" height="400">
+  <img src="./pics/WechatIMG532.png" height="300">
 </div>
 <p align="center">
   Figure 2: Model Structure.
