@@ -27,12 +27,10 @@ Our IAT model consist of two individual branches, the local branch is for pixel-
 
 ## Usage:
 
-Enviroment:
+Enviroment(install pytorch 1.7.1 or later):
 ```
-python >= 3.5.0, numpy,  
-timm == 0.4.12, matplotlib,
-IQA_pytorch, tqdm,
-pytorch >= 1.7.1, torchvision >= 0.8.0 (Following pytorch(https://pytorch.org/) instruction)
+$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+$ pip install timm,matplotlib,IQA_pytorch,tqdm,
 ```
 
 For low-level vision (low-light enhancement, exposure correction):
