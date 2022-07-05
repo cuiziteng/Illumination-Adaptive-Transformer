@@ -41,7 +41,9 @@ Your_Path
     -- INPUT_IMAGES
     -- expert_a_testing_set
     -- expert_b_testing_set
-    -- ...
+    -- expert_c_testing_set
+    -- expert_d_testing_set
+    -- expert_e_testing_set
 ```
 
 2. Evaluation pretrain model on Exposure dataset
