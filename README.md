@@ -38,7 +38,7 @@ For low-level vision (low-light enhancement, exposure correction):
 cd IAT_enhance
 ```
 
-For high-level vision (low-light detection, segmentation):
+For high-level vision (low-light detection, low-light semantic segmentation):
 ```
 cd IAT_high
 ```
