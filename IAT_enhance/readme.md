@@ -62,9 +62,27 @@ The results should be:
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 python -m torch.distributed.launch --nproc_per_node=4 train_exposure.py --img_path Your_Path/train/INPUT_IMAGES --img_val_path Your_Path/validation/INPUT_IMAGES
 ```
-## Additional
+## Model parameters:
 
 To check how many parameters in IAT model, direct run:
 ```
 python model/IAT_main.py
+```
+
+Dataset Citation:
+
+```
+@inproceedings{LOL_dataset,
+  title={Deep Retinex Decomposition for Low-Light Enhancement},
+  author={Chen Wei and Wenjing Wang and Wenhan Yang and Jiaying Liu},
+  booktitle={British Machine Vision Conference},
+  year={2018},
+}
+
+@InProceedings{Exposure_2021_CVPR,
+    author    = {Afifi, Mahmoud and Derpanis, Konstantinos G. and Ommer, Bjorn and Brown, Michael S.},
+    title     = {Learning Multi-Scale Photo Exposure Correction},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition },
+    year      = {2021},
+}
 ```
