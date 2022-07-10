@@ -27,7 +27,7 @@ Our IAT model consist of two individual branches, the local branch is for pixel-
 
 ## Usage:
 
-Enviroment(install pytorch 1.7.1 or later):
+Enviroment (install pytorch 1.7.1 or later, and adapt to your CUDA version, following [pytorch](https://pytorch.org/).):
 ```
 $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 $ pip install timm,matplotlib,IQA_pytorch,tqdm,
