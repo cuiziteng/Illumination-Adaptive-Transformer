@@ -1,6 +1,6 @@
 # <font color=red>Illumination</font> <font color=green>Adaptive</font> <font color=blue>Transformer</font> (IAT) [(paper)](https://arxiv.org/abs/2205.14871) 
 
-**2022.7.11:** Upload the object detection code. See [detection](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/tree/main/IAT_high/IAT_mmdetection).
+**2022.7.11:** Upload the low-light object detection code. See [detection](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/tree/main/IAT_high/IAT_mmdetection).
 
 ## What is IAT?
 
