@@ -37,7 +37,7 @@ EXDark
 
 **Step 2: Enviroment Setting**
 
-Download mmcv 1.3.8~1.4.0 (adapte to your own cuda verson):
+Download mmcv 1.3.8~1.4.0, and download adapte to your own cuda version and torch version:
 ```
 $ pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
 ```
