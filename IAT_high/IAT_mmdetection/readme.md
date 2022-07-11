@@ -49,9 +49,9 @@ $ pip install -v -e .
 
 **Step 3: Testing with pretrain model**
 
-DETR pretrain models and logs ([Baiduyun](https://pan.baidu.com/s/1CMAdhZ_9KvPnLfO7lyyaUA), passwd: 5hvr) or [Google Drive]().
+DETR pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1CMAdhZ_9KvPnLfO7lyyaUA), passwd: 5hvr) or [Google Drive]().
 
-YOLO-V3 pretrain models and logs ([Baiduyun](https://pan.baidu.com/s/1tPXOBNC-6XElwvoIMPGPXQ), passwd: m6u4) or [Google Drive]().
+YOLO-V3 pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1tPXOBNC-6XElwvoIMPGPXQ), passwd: m6u4) or [Google Drive]().
 
 Example of evaluation IAT-DETR-model:
 
