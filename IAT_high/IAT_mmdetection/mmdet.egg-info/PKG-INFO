@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: mmdet
+Version: 2.15.1
+Summary: OpenMMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: OpenMMLab
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: build
+Provides-Extra: optional
+License-File: LICENSE
+
+# Low-Light Object Detection (EXDark dataset)
+
+**Step 1: Dataset Download**
+
+Download **EXDark** (include images enhancement by MBLLEN, Zero-DCE, KIND) in VOC format from [google drive](https://drive.google.com/file/d/1X_zB_OSp_thhk9o26y1ZZ-F85UeS0OAC/view?usp=sharing) or [baiduyun](https://pan.baidu.com/s/1m4BMVqClhMks4S0xulkCcA), passwd:1234. For linux system download (google drive), directly run: 
+
+```
+$ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1X_zB_OSp_thhk9o26y1ZZ-F85UeS0OAC' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1X_zB_OSp_thhk9o26y1ZZ-F85UeS0OAC" -O EXDark.tar.gz && rm -rf /tmp/cookies.txt
+```
+
+then unzip:
+
+```
+$ tar -zxvf EXDark.tar.gz
+```
+
+The EXDark dataset format should be look like:
+
+```
+EXDark
+│      
+│
+└───JPEGImages
+│   │───IMGS (original low light)
+│   │───IMGS_Kind (imgs enhancement by [Kind, mm 2019])
+│   │───IMGS_ZeroDCE (imgs enhancement by [ZeroDCE, cvpr 2020])
+│   │───IMGS_MEBBLN (imgs enhancement by [MEBBLN, bmvc 2018])
+│───Annotations   
+│───main
+│───label
+```
+
+
+**Step 2: Enviroment Setting**
+
+Download mmcv (adapte to your own cuda verson):
+```
+$ pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+```
+then set up mmdet (2.15.1):
+```
+$ pip install -r requirements/build.txt
+$ pip install -v -e .
+```
+
+**Step 3: Testing with pretrain model**
+
+DETR pretrain models and logs ([Baiduyun](https://pan.baidu.com/s/1CMAdhZ_9KvPnLfO7lyyaUA), passwd: 5hvr) or [Google Drive]().
+
+YOLO-V3 pretrain models and logs ([Baiduyun](https://pan.baidu.com/s/1tPXOBNC-6XElwvoIMPGPXQ), passwd: m6u4) or [Google Drive]().
+
+
+
+For more baseline models, please see this repo: [MAET (ICCV 2021)](https://github.com/cuiziteng/ICCV_MAET).
+
+**Step 4: Training**
+
+
+**Others:**
+
+Dataset Citation:
+
+```
+@article{EXDark,
+  title={Getting to know low-light images with the exclusively dark dataset},
+  author={Loh, Yuen Peng and Chan, Chee Seng},
+  journal={Computer Vision and Image Understanding},
+  year={2019},
+}
+```
+
+
