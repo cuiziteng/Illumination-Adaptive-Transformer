@@ -9,5 +9,5 @@ cd IAT_mmdetection
 
 For low-light segmentation:
 ```
-cd IAT_mmsegmentation
+cd IAT_mmsegmentation (in process)
 ```
