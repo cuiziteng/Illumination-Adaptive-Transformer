@@ -2,12 +2,12 @@
 
 The repo is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/)
 
-For low-light detection:
+For low-light object detection:
 ```
 cd IAT_mmdetection
 ```
 
-For low-light segmentation:
+For low-light semantic segmentation:
 ```
-cd IAT_mmsegmentation (in process)
+cd IAT_mmsegmentation (under reconstruction)
 ```
