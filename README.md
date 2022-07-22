@@ -51,7 +51,7 @@ cd IAT_high
 
 <!-- ![image](pics/low-light.png) -->
 <div align="center">
-  <img src="./pics/low-light.png" height="400">
+  <img src="./pics/low-light.png" height="350">
 </div>
 <p align="center">
   Figure 3: IAT in low-light enhancement (LOL dataset, MIT-5K dataset).
@@ -59,7 +59,7 @@ cd IAT_high
 
 <!-- ![image](pics/exposure.png) -->
 <div align="center">
-  <img src="./pics/exposure.png" height="400">
+  <img src="./pics/exposure.png" height="350">
 </div>
 <p align="center">
   Figure 4: IAT in exposure correction (Exposure dataset).
