@@ -14,7 +14,7 @@ $ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=downlo
 $ tar -zxvf EXDark.tar.gz
 ```
 
-We have already split the EXDark dataset with train set (80%) and test set (20%), see paper (MAET)[https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf] for more details.
+We have already split the EXDark dataset with train set (80%) and test set (20%), see paper [MAET](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf) for more details.
 
 The EXDark dataset format should be look like:
 
