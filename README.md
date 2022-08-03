@@ -12,9 +12,9 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
 
 **5 Tasks Under Various Lighting Conditions**: 1. Low-light Enhancement (LOL, MIT5K) // 2. [Exposure Correction](https://github.com/mahmoudnafifi/Exposure_Correction) // 3. [Low-Light Object Detection](https://arxiv.org/abs/1805.11227) // 4. [Low-Light Semantic Segmentation](https://openaccess.thecvf.com/content/ICCV2021/html/Sakaridis_ACDC_The_Adverse_Conditions_Dataset_With_Correspondences_for_Semantic_Driving_ICCV_2021_paper.html) // 5. [Various-Light Object Detection](https://bop.felk.cvut.cz/home/)
 
-<!-- ![image](pics/WechatIMG416.png) -->
+<!-- ![image](pics/IAT.png) -->
 <div align="center">
-  <img src="./pics/WechatIMG416.png" height="400">
+  <img src="./pics/IAT.png" height="400">
 </div>
 <p align="center">
   Figure 1: IAT (illumination-adaptive-transformer) for multi light conditions vision tasks.
@@ -23,9 +23,9 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
 
 ## Model Structure:
 
-<!-- ![image](pics/WechatIMG532.png) -->
+<!-- ![image](pics/model.png) -->
 <div align="center">
-  <img src="./pics/WechatIMG532.png" height="300">
+  <img src="./pics/model.png" height="300">
 </div>
 <p align="center">
   Figure 2: Model Structure of Illumination Adaptive Transformer.
@@ -84,7 +84,7 @@ Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs
 
 Citation:
 ```
-@misc{Illumination_Adaptive_Transformer,
+@misc{Cui_IAT,
   doi = {10.48550/ARXIV.2205.14871},
   url = {https://arxiv.org/abs/2205.14871},
   author = {Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
