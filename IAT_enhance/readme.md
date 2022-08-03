@@ -20,7 +20,7 @@ Your_Path
 
 Results:
 |    | SSIM  | PSNR | enhancement images |
-|  results  | **0.809**  |  **23.38** | [Baidu Cloud](https://pan.baidu.com/s/1M3H5coIOwfzYdTbZCkM42g)(passwd: 5pj2) [Google Drive](https://drive.google.com/drive/folders/1fgDUEbdiRkLbORZt4LMTX5rFB_erexOc?usp=sharing)|
+|  results  | **0.809**  |  **23.38** | [Baidu Cloud](https://pan.baidu.com/s/1M3H5coIOwfzYdTbZCkM42g)(passwd: 5pj2), [Google Drive](https://drive.google.com/drive/folders/1fgDUEbdiRkLbORZt4LMTX5rFB_erexOc?usp=sharing)|
 
 ## II. Low-Light Enhancement (LOL-V2-real dataset, 589 training image, 100 testing image)
 
@@ -43,7 +43,8 @@ python evaluation_lol_v2.py --img_val_path Your_Path/Test/Low/
 Results:
 
 |  | SSIM | PSNR | enhancement images |
-| results | **0.824** | **23.50**  | [Baidu Cloud](https://pan.baidu.com/s/1XH8Bpo0UgrJEqz_gOefiQA)(passwd: 6u3m) [Google Drive](https://drive.google.com/drive/folders/1rxBGGLIguNP0r_Of4dxQ1VAZRnGYJZGu?usp=sharing) |
+| -- | -- | -- | -- |
+| results | **0.824** | **23.50**  | [Baidu Cloud](https://pan.baidu.com/s/1XH8Bpo0UgrJEqz_gOefiQA)(passwd: 6u3m) [Google Drive](https://drive.google.com/drive/folders/1rxBGGLIguNP0r_Of4dxQ1VAZRnGYJZGu?usp=sharing)|
 
 3. Training your model on LOL dataset (single GPU)
 ```
