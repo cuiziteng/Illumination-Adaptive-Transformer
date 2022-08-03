@@ -38,7 +38,7 @@ Your_Path
 
 2. Evaluation pretrain model on LOL-V2-real dataset
 ```
-python evaluation_lol.py --img_val_path Your_Path/Test/Low/
+python evaluation_lol_v2.py --img_val_path Your_Path/Test/Low/
 ```
 Results:
 |    | SSIM  | PSNR | enhancement images |
@@ -46,7 +46,7 @@ Results:
 
 3. Training your model on LOL dataset (single GPU)
 ```
-python train_lol.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low/ 
+python train_lol_v2.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low/ 
 ```
 
 ## III. Exposure Correction
