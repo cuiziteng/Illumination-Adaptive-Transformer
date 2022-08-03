@@ -15,8 +15,9 @@ Your_Path
 ```
 
 2. Evaluation pretrain model on LOL-V1 dataset
-
-
+```
+python evaluation_lol_v1.py --img_val_path Your_Path/eval15/low/
+```
 
 Results:
 |    | SSIM  | PSNR | enhancement images |
