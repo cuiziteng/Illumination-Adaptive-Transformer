@@ -17,7 +17,7 @@ For Vision Tasks under various lighting conditions, towards both **Human Vision*
   <img src="./pics/IAT.png" height="400">
 </div>
 <p align="center">
-  Figure 1: IAT (illumination-adaptive-transformer) for multi light conditions vision tasks.
+  Figure 1: IAT (illumination-adaptive-transformer) for multi light conditions vision tasks, and the comparision on LOL-V1 dataset.
 </p>
 
 
