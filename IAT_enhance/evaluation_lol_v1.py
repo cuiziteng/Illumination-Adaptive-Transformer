@@ -27,7 +27,7 @@ val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=1, shuffle=Fals
 os.environ['CUDA_VISIBLE_DEVICES'] = str(config.gpu_id)
 
 model = IAT().cuda()
-model.load_state_dict(torch.load("/home/mil/cui/Illumination-Adaptive-Transformer/IAT_enhance/workdirs/snapshots_folder_lol_v1_whole_l1loss/best_Epoch.pth"))
+model.load_state_dict(torch.load("best_Epoch_lol_v1.pth"))
 model.eval()
 
 
