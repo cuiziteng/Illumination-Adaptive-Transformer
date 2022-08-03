@@ -7,11 +7,11 @@
 ```
 Your_Path
   -- our485
-    -- high
-    -- low
+      -- high
+      -- low
   -- eval15
-    -- high
-    -- low
+      -- high
+      -- low
 ```
 
 2. Evaluation pretrain model on LOL-V1 dataset
@@ -29,11 +29,11 @@ Results:
 ```
 Your_Path
   -- Train
-    -- Normal
-    -- Low
+      -- Normal
+      -- Low
   -- Test
-    -- Normal
-    -- Low
+      -- Normal
+      -- Low
 ```
 
 2. Evaluation pretrain model on LOL-V2-real dataset
@@ -56,18 +56,18 @@ python train_lol_v2.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path 
 ```
 Your_Path
   -- train
-    -- GT_IMAGES
-    -- INPUT_IMAGES
+      -- GT_IMAGES
+      -- INPUT_IMAGES
   -- validation
-    -- GT_IMAGES
-    -- INPUT_IMAGES
+      -- GT_IMAGES
+      -- INPUT_IMAGES
   -- test
-    -- INPUT_IMAGES
-    -- expert_a_testing_set
-    -- expert_b_testing_set
-    -- expert_c_testing_set
-    -- expert_d_testing_set
-    -- expert_e_testing_set
+      -- INPUT_IMAGES
+      -- expert_a_testing_set
+      -- expert_b_testing_set
+      -- expert_c_testing_set
+      -- expert_d_testing_set
+      -- expert_e_testing_set
 ```
 
 2. Evaluation pretrain model on Exposure dataset
