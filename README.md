@@ -43,6 +43,8 @@ Our IAT model consist of two individual branches, the local branch is for pixel-
 
 Enviroment (install pytorch 1.7.1 or later, following [pytorch](https://pytorch.org/).):
 ```
+$ conda create -n IAT python==3.7.0
+$ conda activate IAT
 $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 $ pip install timm matplotlib IQA_pytorch tqdm
 ```
