@@ -97,7 +97,7 @@ $ python tools/train.py configs/yolo/yolov3_IAT_mit5k.py --gpu-ids 0
 
 **Others:**
 
-*Baselines on EXDark dataset (renew), the baseline detector is YOLO-V3:*
+*Baselines on EXDark dataset (renew) on YOLO-V3 object detector:*
 
 | class | Bicycle | Boat | Bottle | Bus | Car | Cat | Chair | Cup | Dog | Motorbike | People | Table | Total |
 |  ---- | ----    | ---- | ----   | ----| ----| ----| ----  | ----| ----| ----      | ----   |  ---- |  ---- |
