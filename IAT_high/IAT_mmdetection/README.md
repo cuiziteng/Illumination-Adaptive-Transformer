@@ -43,6 +43,7 @@ $ pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu110
 ```
 then set up mmdet (2.15.1):
 ```
+$ pip install opencv-python scipy
 $ pip install -r requirements/build.txt
 $ pip install -v -e .
 ```
