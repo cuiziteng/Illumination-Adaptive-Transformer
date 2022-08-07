@@ -96,7 +96,7 @@ Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs
 
 Citation:
 ```
-@misc{Cui_IAT,
+@misc{Illumination_Adaptive_Transformer,
   doi = {10.48550/ARXIV.2205.14871},
   url = {https://arxiv.org/abs/2205.14871},
   author = {Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
