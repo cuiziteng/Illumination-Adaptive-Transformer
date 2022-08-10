@@ -34,7 +34,7 @@ Second to train on LOL-V1 patch images:
 python train_lol_v1_patch.py --img_path Your_Path/our485_patch/low --img_val_path Your_Path/eval15/low
 ```
 
-Final tuned the pre-train model on LOL-V1 patches on the whole LOL image:
+Third tuned the pre-train model on LOL-V1 patches on the whole LOL image:
 ```
 python train_lol_v1_whole.py --img_path Your_Path/our485/low --img_val_path Your_Path/eval15/low --pretrain_dir workdirs/snapshots_folder_lol_v1_patch/best_Epoch.pth
 ```
