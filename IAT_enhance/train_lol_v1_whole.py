@@ -29,7 +29,7 @@ parser.add_argument('--img_val_path', type=str, default='/data/unagi0/cui_data/l
 parser.add_argument('--batch_size', type=int, default=8)
 parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--weight_decay', type=float, default=0.0001)
-parser.add_argument('--pretrain_dir', type=str, default='/home/mil/cui/Illumination-Adaptive-Transformer/IAT_enhance/workdirs/snapshots_folder_lol_v1_l1loss/best_Epoch.pth')
+parser.add_argument('--pretrain_dir', type=str, default='workdirs/snapshots_folder_lol_v1_patch/best_Epoch.pth')
 
 parser.add_argument('--num_epochs', type=int, default=400)
 parser.add_argument('--display_iter', type=int, default=10)
