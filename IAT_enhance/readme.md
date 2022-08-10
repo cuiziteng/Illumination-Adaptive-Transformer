@@ -24,17 +24,19 @@ Results:
 | -- | -- | -- | -- |
 |  results  | **0.809**  |  **23.38** | [Baidu Cloud](https://pan.baidu.com/s/1M3H5coIOwfzYdTbZCkM42g) (passwd: 5pj2), [Google Drive](https://drive.google.com/drive/folders/1fgDUEbdiRkLbORZt4LMTX5rFB_erexOc?usp=sharing)|
 
-3. Training your model on LOL-V1 dataset, first to crop the LOL-V1 dataset to 256 $\times$ 256 patches:
+3. Training your model on LOL-V1 dataset.
+
+Step 1: crop the LOL-V1 dataset to 256 $\times$ 256 patches:
 ```
 python LOL_patch.py --src_dir Your_Path/our485 --tar_dir Your_Path/our485_patch
 ```
 
-Second to train on LOL-V1 patch images:
+Step 2: train on LOL-V1 patch images:
 ```
 python train_lol_v1_patch.py --img_path Your_Path/our485_patch/low --img_val_path Your_Path/eval15/low
 ```
 
-Third tuned the pre-train model on LOL-V1 patches on the whole LOL image:
+Step 3: tuned the pre-train model (in Step 2) on LOL-V1 patches on the whole LOL image:
 ```
 python train_lol_v1_whole.py --img_path Your_Path/our485/low --img_val_path Your_Path/eval15/low --pretrain_dir workdirs/snapshots_folder_lol_v1_patch/best_Epoch.pth
 ```
