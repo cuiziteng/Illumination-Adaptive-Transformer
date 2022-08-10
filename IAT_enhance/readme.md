@@ -50,7 +50,7 @@ Results:
 | -- | -- | -- | -- |
 | results | **0.824** | **23.50**  | [Baidu Cloud](https://pan.baidu.com/s/1XH8Bpo0UgrJEqz_gOefiQA)(passwd: 6u3m) [Google Drive](https://drive.google.com/drive/folders/1rxBGGLIguNP0r_Of4dxQ1VAZRnGYJZGu?usp=sharing)|
 
-3. Training your model on LOL dataset (single GPU)
+3. Training your model on LOL-V2-real dataset (single GPU), for LOL-V2-real, you don't need create patch and directly train is OK.
 ```
 python train_lol_v2.py --gpu_id 0 --img_path Your_Path/Train/Low --img_val_path Your_Path/Test/Low/ 
 ```
