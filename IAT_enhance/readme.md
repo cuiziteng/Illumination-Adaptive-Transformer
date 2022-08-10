@@ -24,7 +24,7 @@ Results:
 | -- | -- | -- | -- |
 |  results  | **0.809**  |  **23.38** | [Baidu Cloud](https://pan.baidu.com/s/1M3H5coIOwfzYdTbZCkM42g) (passwd: 5pj2), [Google Drive](https://drive.google.com/drive/folders/1fgDUEbdiRkLbORZt4LMTX5rFB_erexOc?usp=sharing)|
 
-3. Training your model on LOL-V1 dataset.
+3. Training your model on LOL-V1 dataset (to get our close result).
 
 Step 1: crop the LOL-V1 dataset to 256 $\times$ 256 patches:
 ```
