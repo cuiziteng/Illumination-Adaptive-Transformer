@@ -18,7 +18,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=0)
 parser.add_argument('--save', type=bool, default=True)
 parser.add_argument('--img_val_path', type=str, default='/data/unagi0/cui_data/light_dataset/LOL_v1/eval15/low/')
-parser.add_argument('--pre_norm', type=bool, default=True)
 config = parser.parse_args()
 
 print(config)
