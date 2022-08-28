@@ -32,7 +32,7 @@ EXDark
 │───label
 ```
 
-(3). Then change [line1](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/a0e4de1029eab1e6030f11cebbb7aaec2a64360b/IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_detr.py#L3) (IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_detr.py) and [line2](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/a0e4de1029eab1e6030f11cebbb7aaec2a64360b/IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_yolo.py#L2) ((IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_yolo.py)) to your own data path.
+(3). Then change [line1](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/a0e4de1029eab1e6030f11cebbb7aaec2a64360b/IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_detr.py#L3) (IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_detr.py) and [line2](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/a0e4de1029eab1e6030f11cebbb7aaec2a64360b/IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_yolo.py#L2) (IAT_high/IAT_mmdetection/configs/_base_/datasets/exdark_yolo.py) to your own data path.
 
 
 **Step 2: Enviroment Setting**
