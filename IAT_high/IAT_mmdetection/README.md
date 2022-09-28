@@ -54,7 +54,7 @@ DETR pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1CMAd
 
 YOLO-V3 pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1tPXOBNC-6XElwvoIMPGPXQ), passwd: m6u4) or [Google Drive]().
 
-Example of evaluation IAT-DETR-model:
+Example of evaluation IAT-DETR-model (initial with LOL-V2 dataset/ MIT5K dataset weights):
 
 ```
 $ python tools/test.py configs/detr/detr_ours_LOL.py DETR/detr_IAT_LOLpre.pth --eval mAP
@@ -62,7 +62,7 @@ $ python tools/test.py configs/detr/detr_ours_LOL.py DETR/detr_IAT_LOLpre.pth --
 $ python tools/test.py configs/detr/detr_ours_MIT5k.py DETR/detr_IAT_MIT5Kpre.pth --eval mAP
 ```
 
-Example of evaluation IAT-YOLO-V3-model:
+Example of evaluation IAT-YOLO-V3-model (initial with LOL-V2 dataset/ MIT5K dataset weights):
 
 ```
 $ python tools/test.py configs/yolo/yolov3_IAT_lol.py YOLO_V3/YOLOV3_IAT_LOLpre.pth --eval mAP
