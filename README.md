@@ -1,5 +1,4 @@
-# <font color=red>You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction.
-  (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871) 
+# <font color=red>You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction. (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871) 
 
 **2022.10.1:** Papar accepted by **BMVC 2022**! You can also find video demo on [twitter](https://twitter.com/Empire_Xiao_Yan/status/1576503106598096896).
 
