@@ -9,5 +9,5 @@ cd IAT_mmdetection
 
 For low-light semantic segmentation:
 ```
-cd IAT_mmsegmentation (under reconstruction)
+cd IAT_mmsegmentation 
 ```
