@@ -1,6 +1,6 @@
 """
-Code copy from container source code:
-https://github.com/allenai/container/blob/main/models.py
+Code copy from uniformer source code:
+https://github.com/Sense-X/UniFormer
 """
 import os
 import torch
