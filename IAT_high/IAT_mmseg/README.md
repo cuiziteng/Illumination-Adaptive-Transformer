@@ -29,7 +29,16 @@ data
    		└───new_gt_labelTrainIds
 ```
 
-(3). Then change `IAT_high/IAT_mmseg/configs/_base_/datasets` to your own data path.
+(3). Then change
+
+-  [line1](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/f358dd8c5fca0dea91b45d99d556ec9ce33bb052/IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night.py#L3) ( `IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night.py`) ,
+-  [line2](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/f358dd8c5fca0dea91b45d99d556ec9ce33bb052/IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_DeepLPF.py#L3) ( `IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_DeepLPF.py`) ,
+-  [line3](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/f358dd8c5fca0dea91b45d99d556ec9ce33bb052/IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_HE.py#L3) ( `IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_HE.py`) ,
+-  [line4](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/f358dd8c5fca0dea91b45d99d556ec9ce33bb052/IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_MBLLEN.py#L3) ( `IAT_high/IAT_mmseg/configs/_base_/datasets/ACDC_night_with_MBLLEN.py`) ,
+
+to your own data path.
+
+Noted that, since there are few rider, truck, bus and motorcycle in ACDC night dataset, we remove these 4 classes.
 
 **Step 2: Enviroment Setting**
 
@@ -52,7 +61,7 @@ $ pip install -v -e .
 
 **Step 3: Testing with pretrain model**
 
-Deeplabv3+ pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1CMAdhZ_9KvPnLfO7lyyaUA), passwd: 5hvr) or [Google Drive](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/main/IAT_high/IAT_mmdetection).
+Deeplabv3+ pretrain models and training logs ([Baiduyun](https://pan.baidu.com/s/1RT0OtnflLxi4FtAUeSnnBg), passwd: 5678).
 
 Example of evaluation IAT-Deeplabv3+ model (trained with LOL dataset/ MIT5K dataset weights):
 
