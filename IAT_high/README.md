@@ -7,7 +7,7 @@ For [low-light object detection](https://github.com/cuiziteng/Illumination-Adapt
 cd IAT_mmdetection
 ```
 
-For low-light semantic segmentation:
+For [low-light semantic segmentation](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/tree/main/IAT_high/IAT_mmseg):
 ```
-cd IAT_mmsegmentation (under reconstruction)
+cd IAT_mmsegmentation 
 ```
