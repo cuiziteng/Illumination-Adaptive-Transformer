@@ -132,7 +132,7 @@ python img_demo.py --file_name demo_imgs/low_demo.jpg --task enhance
 python model/IAT_main.py
 ```
 
-3. Dataset Citation:
+Dataset Citation:
 
 ```
 @inproceedings{LOL_dataset,
