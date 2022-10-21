@@ -116,12 +116,23 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29500 python -m torch.distributed.launch --npr
 
 ## Others:
 
-To check how many parameters in IAT model, direct run:
+1. To use the model for a exposure correction demo show, direct run:
+```
+python img_demo.py --file_name demo_imgs/exposure_demo.JPG --task exposure
+```
+
+or for a image enhancement demo show, direct run:
+```
+python img_demo.py --file_name demo_imgs/low_demo.jpg --task enhance
+```
+
+
+2. To check how many parameters in IAT model, direct run:
 ```
 python model/IAT_main.py
 ```
 
-Dataset Citation:
+3. Dataset Citation:
 
 ```
 @inproceedings{LOL_dataset,
