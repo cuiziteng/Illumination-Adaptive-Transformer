@@ -49,12 +49,3 @@ enhanced_img = (enhanced_img*255.0).astype(np.uint8)
 plt.imshow(enhanced_img)
 #plt.imsave('results.png', enhanced_img) 
 plt.show()
-
-
-
-
-
-
-
-
-
