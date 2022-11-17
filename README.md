@@ -14,6 +14,26 @@
 
 <br/>
 
+
+## Reference:
+
+Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [UniFormer](https://github.com/Sense-X/UniFormer), thanks them both so much!
+
+Citation:
+```
+@misc{Illumination_Adaptive_Transformer,
+  doi = {10.48550/ARXIV.2205.14871},
+  url = {https://arxiv.org/abs/2205.14871},
+  author = {Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
+
+
 ## Abstract
 
 Challenging illumination conditions (low-light, under-exposure and over-exposure) in the real world not only cast an unpleasant visual appearance but also taint the computer vision tasks. After camera captures the raw-RGB data, it renders standard sRGB images with image signal processor (ISP). By decomposing ISP pipeline into local and global image components, we propose a lightweight fast **Illumination Adaptive Transformer (IAT)** to restore the normal lit sRGB image from either low-light or under/over-exposure conditions. Specifically, **IAT** uses attention queries to represent and adjust the ISP-related parameters such as colour correction, gamma correction. With only **～90k** parameters and **～0.004s** processing speed, our **IAT** consistently achieves superior performance over SOTA on the current benchmark low-light enhancement and exposure correction datasets. Competitive experimental performance also demonstrates that our **IAT** significantly enhances object detection and semantic segmentation tasks under various light conditions.
@@ -98,23 +118,7 @@ cd IAT_high
 
 <br/>
 
-## Citation:
-
-Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [UniFormer](https://github.com/Sense-X/UniFormer), thanks them both so much!
-
-Citation:
-```
-@misc{Illumination_Adaptive_Transformer,
-  doi = {10.48550/ARXIV.2205.14871},
-  url = {https://arxiv.org/abs/2205.14871},
-  author = {Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
-```
+## Related 
 
 We also have another work about the **low-light object detection**, **ICCV 2021**: Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection [(code)](https://github.com/cuiziteng/ICCV_MAET) [(paper)](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf), please read if you interest!
 
