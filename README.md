@@ -4,7 +4,7 @@
 
 **2022.10.11:** Upload the low-light semantic segmentation code. See [segmentation](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/tree/main/IAT_high/IAT_mmseg).
 
-**2022.10.1:** Papar accepted by **BMVC 2022**! You can also find video demo on [twitter](https://twitter.com/Empire_Xiao_Yan/status/1576503106598096896).
+**2022.10.1:** Papar accepted by [**BMVC 2022**](https://bmvc2022.mpi-inf.mpg.de/238/)! You can also find video demo on [twitter](https://twitter.com/Empire_Xiao_Yan/status/1576503106598096896).
 
 **2022.8.10:** Upload **LOL-V1** dataset training code.
 
