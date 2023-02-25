@@ -34,7 +34,7 @@ model.eval()
 
 ## Load Image
 img = plt.imread(config.file_name)
-input = np.asarray(img)/255.0
+input = np.asarray(img)
 input = torch.from_numpy(input).float().cuda()
 input = input.permute(2,0,1).unsqueeze(0)
 if config.normalize:    # False
