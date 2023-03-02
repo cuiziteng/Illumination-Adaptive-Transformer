@@ -1,6 +1,6 @@
 # <font color=red>You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction. (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871)  [(zhihu中文解读)](https://zhuanlan.zhihu.com/p/535695807) 
 
-**2023.3.2:** Rewnew the [img_demo.py](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/main/IAT_enhance/img_demo.py), you can directly use this for image enhancement and exposure correction.
+**2023.3.2:** Renew the [img_demo.py](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/main/IAT_enhance/img_demo.py), you can directly use this for image enhancement and exposure correction.
 
 **2022.10.16:** We add demos for low-light enhancement and exposure correction in [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Andy1621/IAT_enhancement).
 
