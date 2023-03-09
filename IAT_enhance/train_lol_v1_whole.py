@@ -19,7 +19,7 @@ from data_loaders.lol_v1_whole import lowlight_loader_new
 from model.IAT_main import IAT
 
 from IQA_pytorch import SSIM
-from utils import PSNR, adjust_learning_rate, validation, LossNetwork, visualization, CharbonnierLoss
+from utils import PSNR, adjust_learning_rate, validation, LossNetwork, visualization
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', type=str, default=0)
