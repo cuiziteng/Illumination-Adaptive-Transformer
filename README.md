@@ -23,13 +23,11 @@ Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs
 
 Citation:
 ```
-@inproceedings{Cui_2022_BMVC,
-author    = {Ziteng Cui and Kunchang Li and Lin Gu and Shenghan Su and Peng Gao and ZhengKai Jiang and Yu Qiao and Tatsuya Harada},
-title     = {You Only Need 90K Parameters to Adapt Light: a Light Weight Transformer for Image Enhancement and Exposure Correction},
-booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
-publisher = {{BMVA} Press},
-year      = {2022},
-url       = {https://bmvc2022.mpi-inf.mpg.de/0238.pdf}
+@article{cui2022illumination,
+  title={Illumination Adaptive Transformer},
+  author={Cui, Ziteng and Li, Kunchang and Gu, Lin and Su, Shenghan and Gao, Peng and Jiang, Zhengkai and Qiao, Yu and Harada, Tatsuya},
+  journal={arXiv preprint arXiv:2205.14871},
+  year={2022}
 }
 ```
 
