@@ -21,7 +21,7 @@
 
 Detection and Segmentation are use [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/), some of the code are borrow from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) and [UniFormer](https://github.com/Sense-X/UniFormer), thanks them both so much!
 
-If this code or paper help you, please cite as follow, thx~
+If this code or paper help you, please cite as follow (rather than the name You Only Need ***), thx~
 ```
 @article{cui2022illumination,
   title={Illumination Adaptive Transformer},
