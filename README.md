@@ -1,4 +1,4 @@
-# <font color=red>You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction. (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871)  [(zhihu中文解读)](https://zhuanlan.zhihu.com/p/535695807) 
+# <font color=red>You Only Need 90K Parameters to Adapt Light: a Light Weight Transformer for Image Enhancement and Exposure Correction. (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871)  [(zhihu中文解读)](https://zhuanlan.zhihu.com/p/535695807) 
 
 **2023.3.2:** Renew the [img_demo.py](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/blob/main/IAT_enhance/img_demo.py), you can directly use this for image enhancement and exposure correction.
 
