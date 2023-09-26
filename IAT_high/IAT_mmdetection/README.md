@@ -106,7 +106,7 @@ $ python tools/train.py configs/yolo/yolov3_IAT_mit5k.py --gpu-ids 0
 | MBLLEN (BMVC 2018) | 82.0 | 77.3 | 76.5 | 91.3 | 84.0 | 67.6 | 69.1 | 77.6 | 80.4 | 75.6 | 81.9 | 58.6 | 76.8 |
 | Zero-DCE (CVPR 2020) | 84.1 | 77.6 | 78.3 | 93.1 | 83.7 | 70.3 | 69.8 | 77.6 | 77.4 | 76.3 | 81.0 | 53.6 | 76.9 |
 | [MAET (ICCV 2021)](https://github.com/cuiziteng/ICCV_MAET) | 83.1| 78.5| 75.6| 92.9| 83.1| 73.4| 71.3| 79.0| 79.8| 77.2| 81.1| 57.0| 77.7|
-| [DENet (ACCV 2022)]([https://github.com/cuiziteng/ICCV_MAET](https://openaccess.thecvf.com/content/ACCV2022/html/Qin_DENet_Detection-driven_Enhancement_Network_for_Object_Detection_under_Adverse_Weather_ACCV_2022_paper.html)) | 80.4 | 79.7 | 77.9 | 91.2 | 82.7 | 72.8 | 69.9 | 80.1 | 77.2 | 76.7 | 82.0 | 57.2 | 77.3|
+| [DENet (ACCV 2022)](https://openaccess.thecvf.com/content/ACCV2022/html/Qin_DENet_Detection-driven_Enhancement_Network_for_Object_Detection_under_Adverse_Weather_ACCV_2022_paper.html) | 80.4 | 79.7 | 77.9 | 91.2 | 82.7 | 72.8 | 69.9 | 80.1 | 77.2 | 76.7 | 82.0 | 57.2 | 77.3|
 | IAT-YOLO (BMVC 2022) | 79.8 | 76.9 | 78.6 | 92.5 | 83.8 | 73.6 | 72.4 | 78.6 | 79.0 | 79.0 | 81.1 | 57.7 | 77.8 |
 | [PEYOLO (ICANN 2023)](https://arxiv.org/pdf/2307.10953.pdf) | 84.7 | 79.2 | 79.3 | 92.5 | 83.9 | 71.5 | 71.7 | 79.7 | 79.7 | 77.3 | 81.8 | 55.3 | 78.0 |
 
