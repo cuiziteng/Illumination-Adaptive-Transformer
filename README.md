@@ -1,5 +1,7 @@
 # <font color=red>You Only Need 90K Parameters to Adapt Light: a Light Weight Transformer for Image Enhancement and Exposure Correction. (BMVC 2022)</font> [(paper)](https://arxiv.org/abs/2205.14871)  [(zhihu中文解读)](https://zhuanlan.zhihu.com/p/535695807) 
 
+**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [here](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~
+
 **2023.9.26:** Upload the new detection benchmark on EXDark dataset, see [detection part page](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/tree/main/IAT_high/IAT_mmdetection).
 
 **2023.5.11:** Thanks for [this issue](https://github.com/cuiziteng/Illumination-Adaptive-Transformer/issues/44)'s correction, the Flops of IAT on (256 x 256) image is 1.44 *GFlops*, and the Flops of IAT on (400 x 600) image is 5.28 *GFlops*, please notice. Also the 0.004s per image inference speed is calculated in LOL-V2 dataset inference (100 images total), if you only test single image, the inference speed would be slow down because of GPU's effect (the initial images evaluation time would be larger).
